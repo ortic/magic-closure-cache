@@ -1,0 +1,23 @@
+{
+  "name": "ortic/magicclosurecache",
+  "description": "automatically cache closures",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Remo Laubacher",
+      "email": "remo.laubacher@ortic.com"
+    }
+  ],
+  "require": {
+    "jeremeamia/superclosure": "~2.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ortic\\MagicClosureCache\\": "src/"
+    }
+  }
+}
